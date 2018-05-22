@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f91d5c4-4e09-47bc-85db-74ca67643f0b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/code.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/confirmCode.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.php" afterPath="$PROJECT_DIR$/register.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerRider.php" afterPath="$PROJECT_DIR$/registerRider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,8 +52,8 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="118">
+              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -64,8 +62,8 @@
       <file leaf-file-name="confirmRider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/confirmRider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <marker date="1524739721238" expanded="true" signature="94:152" ph="select * fro... riders" />
                 <marker date="1524739721238" expanded="true" signature="281:337" ph="update rider... " />
@@ -110,12 +108,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="14">
               <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <marker date="1526987150691" expanded="true" signature="187:383" ph="INSERT INTO `codes`... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirmCode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/confirmCode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+              <folding>
+                <marker date="1526987538240" expanded="true" signature="142:233" ph="select * fro... codes" />
+                <marker date="1526987538240" expanded="true" signature="364:454" ph="update codes... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,12 +152,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/connect.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/registerRider.php" />
         <option value="$PROJECT_DIR$/register.php" />
         <option value="$PROJECT_DIR$/confirm.php" />
         <option value="$PROJECT_DIR$/confirmRider.php" />
         <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/code.php" />
+        <option value="$PROJECT_DIR$/confirmCode.php" />
       </list>
     </option>
   </component>
@@ -294,12 +319,12 @@
       <workItem from="1524810034799" duration="870000" />
       <workItem from="1525334436562" duration="34000" />
       <workItem from="1526968449162" duration="3426000" />
-      <workItem from="1526975425648" duration="270000" />
+      <workItem from="1526975425648" duration="4459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12398000" />
+    <option name="totallyTimeSpent" value="16587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1364" height="732" extended-state="4" />
@@ -642,25 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/confirmRider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1524739721238" expanded="true" signature="94:152" ph="select * fro... riders" />
-            <marker date="1524739721238" expanded="true" signature="281:337" ph="update rider... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="28" column="1" lean-forward="false" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -688,6 +694,46 @@
         <state relative-caret-position="14">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirmRider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <marker date="1524739721238" expanded="true" signature="94:152" ph="select * fro... riders" />
+            <marker date="1524739721238" expanded="true" signature="281:337" ph="update rider... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confirmCode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+          <folding>
+            <marker date="1526987538240" expanded="true" signature="142:233" ph="select * fro... codes" />
+            <marker date="1526987538240" expanded="true" signature="364:454" ph="update codes... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <marker date="1526987150691" expanded="true" signature="187:383" ph="INSERT INTO `codes`... " />
+          </folding>
         </state>
       </provider>
     </entry>
